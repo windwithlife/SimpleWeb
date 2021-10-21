@@ -6,7 +6,7 @@ module.exports = {
             {
                 libraryName: "antd",
                 libraryDirectory: "lib",
-                style: "css",
+                style: true,
             },
         ],
         [
@@ -17,6 +17,15 @@ module.exports = {
                 camel2DashComponentName: false,
             },
             "@ant-design/icons",
+        ],
+        [
+            "import",
+            {
+                libraryName: "simple-framework",
+                libraryDirectory: "lib/components",
+                style: true,
+            },
+            "simple-framework",
         ],
     ]
 };

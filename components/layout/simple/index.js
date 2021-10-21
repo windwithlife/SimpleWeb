@@ -5,8 +5,14 @@ import React, { Component } from 'react';
 import { Layout } from 'antd';
 let { Content, } = Layout;
 
-import { Header, Header3, Footer, Footer1, Block5, Block0, Block3 } from 'simple-framework';
-
+import { Header } from 'simple-framework';
+//import {Header} from 'simple-framework/lib/components/header';
+//var Header = require('simple-framework/lib/components/header').default;
+//var Button = require('antd/lib/button').default;
+//require('simple-framework/lib/components/header/style');
+//let Header = require('simple-framework').Header;
+//require('simple-framework/lib/components/section/landing/less/nav0.less')
+// import {Hedader} from 'simple-framework/'
 
 class SimpleLayout extends Component {
   constructor(props) {
@@ -28,6 +34,7 @@ class SimpleLayout extends Component {
     let that = this;
     return (
       <Layout>
+        {/* <Button>teste</Button> */}
         <Header menuClick={this.onMenuClick}   style={{ color: '#fff', background: '#000' }} />
         <Content style={{minHeight:'800px'}}>
           {that.props.children}
