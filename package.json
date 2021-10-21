@@ -34,6 +34,6 @@
     "@babel/core": "^7.15.5",
     "@next/bundle-analyzer": "^11.1.0",
     "next-plugin-antd-less": "^1.4.4",
-    "simple-framework": "^1.0.38"
+    "simple-framework": "^1.0.41"
   }
 }
